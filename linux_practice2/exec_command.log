@@ -1,4 +1,41 @@
-
+   76  ls
+   77  cd /home
+   78  ls
+   79  cd /home
+   80  echo 'Linux Practice' >> README.md
+   81  echo '-----------------' >> README.md
+   82  cat README.md
+   83  cd /home
+   84  vi README.md
+   85  cd /home
+   86  vi README.md
+   87  cd /root
+   88  mkdir server_lesson && cd server_lesson
+   89  yum update -y && yum -y install git
+   90  git version
+   91  git init
+   92  touch first.txt
+   93  yum update -y && yum -y install git
+   94  git status
+   95  ls
+   96  git add .
+   97  git status
+   98  git commit -m 'first commit'
+   99  git config user.email "june1nkamane@gmail.com"
+  100  git config user.name "kzuamadraogon"
+  101  git commit -m 'first commit'
+  102  git status
+  103  git log
+  104  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  105  git remote -v
+  106  git push origin master
+  107  git push origin master
+  108  kzuamadraogon
+  109  git push origin master
+  110  git push origin master
+  111  pwd
+  112  mkdir linux_practice1
+  113  ls
   114  cd linux_practice1
   115  ls
   116  mkdir public
