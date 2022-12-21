@@ -1,18 +1,3 @@
-  274  pwd
-  275  ls
-  276  ls
-  277  cd trash
-  278  ls
-  279  pwd
-  280  /root/server_lesson/linux_practice2/trash/gizumo2?.md>>.gitignore
-  281  ls
-  282  pwd
-  283  pwd
-  284  /root/server_lesson/linux_practice2
-  285  ls -a
-  286  pwd
-  287  cd /root/server_lesson/linux_practice2
-  288  ls
   289  ls-a
   290  ls -a
   291  cat .gitignore
@@ -298,5 +283,18 @@
   571  rm :centos7
   572  ls
   573  history 300
-
-
+  574* 
+  575  vi exec_command.log 
+  576  ls
+  577  cd linux_practice2
+  578  ls
+  579  vi exec_command.log 
+  580  vi exec_command.log 
+  581  vi exec_command.log 
+  582* 
+  583  git commit -m 'OK34'
+  584  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  585  git remote -v
+  586  git push origin master
+  587  git rm -r --cached .
+  588  history 300
