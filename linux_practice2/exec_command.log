@@ -1,183 +1,3 @@
-   76  ls
-   77  cd /home
-   78  ls
-   79  cd /home
-   80  echo 'Linux Practice' >> README.md
-   81  echo '-----------------' >> README.md
-   82  cat README.md
-   83  cd /home
-   84  vi README.md
-   85  cd /home
-   86  vi README.md
-   87  cd /root
-   88  mkdir server_lesson && cd server_lesson
-   89  yum update -y && yum -y install git
-   90  git version
-   91  git init
-   92  touch first.txt
-   93  yum update -y && yum -y install git
-   94  git status
-   95  ls
-   96  git add .
-   97  git status
-   98  git commit -m 'first commit'
-   99  git config user.email "june1nkamane@gmail.com"
-  100  git config user.name "kzuamadraogon"
-  101  git commit -m 'first commit'
-  102  git status
-  103  git log
-  104  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  105  git remote -v
-  106  git push origin master
-  107  git push origin master
-  108  kzuamadraogon
-  109  git push origin master
-  110  git push origin master
-  111  pwd
-  112  mkdir linux_practice1
-  113  ls
-  114  cd linux_practice1
-  115  ls
-  116  mkdir public
-  117  ls
-  118  cd public
-  119  touch index.php
-  120  ls
-  121  cp index.php index_bk.php
-  122  ls
-  123  cd /
-  124  ls
-  125  cd root
-  126  ls
-  127  cd server_lesson/
-  128  ls
-  129  cd linux_practice1/
-  130  cp -r public tmp
-  131  ls
-  132  ls public
-  133  ls tmp
-  134  cd tmp
-  135  ls
-  136  rm index_bk.php
-  137  ls
-  138  cd linux_practice1
-  139  cd server_lesson/linux_practice1
-  140  cd /server_lesson/linux_practice1
-  141  pwd
-  142  cd /root/server_lesson/linux_practice1
-  143  cd public
-  144  ls
-  145  pwd
-  146  cd /root/server_lesson
-  147  touch README.md
-  148  ls
-  149  vi README.md
-  150  vi README.md
-  151  ls
-  152  git status
-  153  git add .
-  154  git status
-  155  git commit -m '練習問題１完了'
-  156  git status
-  157  git status
-  158  git log
-  159  git commit -m '1comprete'
-  160  git log
-  161  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  162  git remote -v
-  163  git push origin master
-  164  mkdir linux_practice2
-  165  ls
-  166  linux_practice2
-  167  cd linux_practice2
-  168  mkdir documents
-  169  ls
-  170  cd documents/
-  171  touch gizumo{01..50}.md
-  172  ls
-  173  pwd
-  174  cd/root/server_lesson/linux_practice2
-  175  cd /root/server_lesson/linux_practice2
-  176  mkdir trash
-  177  ls
-  178  cd documents/
-  179  ls
-  180  mv  gizumo{20..40}.md trsh
-  181  ls
-  182  mv  gizumo{20..40}.md trash
-  183  pwd
-  184  mv  gizumo{20..40}.md /root/server_lesson/linux_practice2/trash
-  185  ls
-  186  cd /root/server_lesson/linux_practice2/trash
-  187  ls
-  188  cd /root/server_lesson/linux_practice2
-  189  touch .gitignore
-  190  ls
-  191  ls
-  192  ls -a
-  193  cd .gitignore
-  194  cd -a .gitignore
-  195  ls
-  196  ls -a
-  197  vi.gitignore
-  198  vi -a .gitignore
-  199  pwd
-  200  cd tmp
-  201  cd trash
-  202  ls
-  203  git status
-  204  git add .
-  205  git status
-  206  git commit -m '練習問題２の3まで完了'
-  207  git status
-  208  git log
-  209  ls
-  210  cd root
-  211  ls
-  212  cd server_lesson/
-  213  ls
-  214  cd linux_practice2
-  215  ls
-  216  trash
-  217  cd V
-  218  cd trash
-  219  pwd
-  220  pwd
-  221  ls
-  222  cd /root/server_lesson/linux_practice2
-  223  ls -a
-  224  vi /root/server_lesson/linux_practice2/.gitignore
-  225  vi /root/server_lesson/linux_practice2/trash/gizumo20.md
-  226  git add .
-  227  git status
-  228  git commit -m '2-4_gitignore_check_7'
-  229  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  230  git remote -v
-  231  git push origin master
-  232  vi /root/server_lesson/linux_practice2/.gitignore
-  233  vi /
-  234  vi /root/server_lesson/linux_practice2/trash/gizumo20.md
-  235  git add .
-  236  git commit -m '2-4_gitignore_check_8'
-  237  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  238  git remote -v
-  239  git push origin master
-  240  vi /root/server_lesson/linux_practice2/.gitignore
-  241  vi /root/server_lesson/linux_practice2/trash/gizumo20.md
-  242  git add .
-  243  git commit -m '2-4_gitignore_check_9'
-  244  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  245  git remote -v
-  246  git push origin master
-  247  git rm --cached/root/server_lesson/linux_practice2/trash/gizumo2?.md
-  248  vi /root/server_lesson/linux_practice2/.gitignore
-  249  git add .
-  250  git commit -m '2-4_gitignore_check_10'
-  251  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  252  git remote -v
-  253  git push origin master
-  254  vi /root/server_lesson/linux_practice2/trash/gizumo20.md
-  255  git add .
   256  git commit -m '2-4_gitignore_check_10'
   257  git commit -m '2-4_gitignore_check_11'
   258  git add 
@@ -275,63 +95,207 @@
   350  git push origin master
   351  vi /root/server_lesson/linux_practice2/trash/.gitignore
   352  vi /
-  353  git rm gizumo2?.md
-  354  git rm --cached gizumo2?.md
-  355  git rm --cached gizumo20.md
-  356  ls
-  357  cd root/
-  358  ls
-  359  cd server_lesson/
-  360  ls
+  353  ls
+  354  cd root/
+  355  ls
+  356  cd server_lesson/
+  357  ls
+  358  rm linux_practice2/trash/.gitignore
+  359  ls
+  360  ls -a
   361  cd linux_practice2
-  362  ls
-  363  cd trash
+  362  ls -a
+  363  cd trash/
   364  ls
   365  pwd
-  366  git rm /root/server_lesson/linux_practice2/trash/gizumo2?.md
-  367  vi /root/server_lesson/linux_practice2/.gitignore
-  368  git add .
-  369  git commit -m ''
+  366  vi /root/server_lesson/linux_practice2/.gitignore
+  367  cd /root/server_lesson
+  368  ls
+  369  vi README.md
   370  git add .
-  371  git commit -m '2-4_gitignore_check_11'
+  371  git commit -m 'OK3'
   372  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
   373  git remote -v
   374  git push origin master
-  375  pwd
+  375  vi /root/server_lesson/linux_practice2/.gitignore
   376  ls
-  377  touch gizumo[20..29].md
+  377  cd linux_practice2
   378  ls
-  379  rm gizumo[20..29].md
-  380  ls
-  381  touch gizumo{20..29}.md
-  382  ls
-  383  vi /root/server_lesson/linux_practice2/.gitignore
-  384  git add .
-  385  git commit -m '2-4_gitignore_check_11'
-  386  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  387  git remote -v
-  388  git push origin master
+  379  cdt
+  380  cd trash/
+  381  pwd
+  382  git rm --cached /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  383  git rm /root/server_lesson/linux_practice2/trash/.gitignore
+  384  ls
+  385  ls -a
+  386  git add .
+  387  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  388  git remote -v
   389  git push origin master
-  390  git add .
-  391  git status
-  392  git commit -m '2-4_gitignore_check_12'
-  393  ls
-  394  pwd
-  395  vi /root/server_lesson/linux_practice2/trash/.gitignore
-  396  vi /root/server_lesson/linux_practice2/.gitignore
-  397  vi /root/server_lesson/linux_practice2/trash/gizumo31.md
-  398  git add .
-  399  git status
-  400  git commit -m '2-4_gitignore_check_11'
-  401  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  402  git remote -v
-  403  git push origin master
-  404  git push origin master
-  405  ls
-  406  vi /root/server_lesson/linux_practice2/.gitignore
-  407  git add .
-  408  git commit -m '2-4_gitignore_check_12'
-  409  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
-  410  git remote -v
-  411  git push origin master
-  412  history 300
+  390  git push origin master
+  391  git add .
+  392  git commit -m 'OK5'
+  393  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  394  git remote -v
+  395  git push origin master
+  396  pwd
+  397  cd /root/server_lesson/linux_practice2
+  398  ls -a
+  399  rm .gitignore
+  400  ls -a
+  401  touch .gitignore
+  402  ls -a
+  403  pwd
+  404  vi /root/server_lesson/linux_practice2/.gitignore
+  405  git rm --cached /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  406  git add .
+  407  git commit -m 'OK6'
+  408  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  409  git remote -v
+  410  git push origin master
+  411  ls
+  412  cd trash/
+  413  ls
+  414  pwd
+  415  rm /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  416  git add .
+  417  git commit -m'OK6'
+  418  git remote add origin
+  419  git remote -v
+  420  git push origin master
+  421  git add .
+  422  git commit -m 'OK7'
+  423  git remote add origin
+  424  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  425  git remote -v
+  426  git push origin master
+  427  git add .
+  428  git commit -m 'OK7'
+  429  git remote add origin
+  430  git add .
+  431  git commit -m 'OK7'
+  432  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  433  git remote -v
+  434  git push origin master
+  435  ls
+  436  touch gizumo{20..29}.md
+  437  ls
+  438  git add .
+  439  git commit -m 'first commit'
+  440  git add .
+  441  git commit -m 'OK9'
+  442  git remote add origin コ? https://github.com/kzuamadraogon/linux_dragon.git
+  443  git remote -v
+  444  git push origin master
+  445  git add .
+  446  git commit -m 'OK10'
+  447  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  448  git remote -v
+  449  git push origin master
+  450  git status
+  451  rm /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  452  git status
+  453  git add .
+  454  git commit -m 'OK21'
+  455  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  456  git remote -v
+  457  git push origin master
+  458  git rm --cached gizumo{20..29}.md
+  459  git add .
+  460  git commit -m 'OK22'
+  461  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  462  git remote -v
+  463  git push origin master
+  464  touch gizumo{20..29}.md
+  465  ls
+  466  git add .
+  467  git commit -m 'OK23'
+  468  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  469  git remote -v
+  470  git push origin master
+  471  git rm --cached gizumo{20..29}.md
+  472  git push origin master
+  473  ls
+  474  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  475  git status
+  476  git add .
+  477  git status
+  478  pwd
+  479  rm /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  480  touch gizumo{20..29}.md
+  481  ls
+  482  git rm --cached gizumo{20..29}.md
+  483  git add .
+  484  git commit -m 'OK24'
+  485  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  486  git remote -v
+  487  git push origin master
+  488  git push origin master
+  489  ls
+  490  pwd
+  491  /root/server_lesson/linux_practice2/trash/gizumo31.md
+  492  vi /root/server_lesson/linux_practice2/trash/gizumo31.md
+  493  git add .
+  494  git commit -m 'OK25'
+  495  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  496  git remote -v
+  497  git push origin master
+  498  rm /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  499  git add .
+  500  git commit -m 'OK26'
+  501  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  502  git remote -v
+  503  git push origin master
+  504  pwd
+  505  vi /root/server_lesson/linux_practice2/trash/gizumo30.md
+  506  git add .
+  507  git commit -m 'OK27'
+  508  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  509  git remote -v
+  510  git push origin master
+  511  git rm gizumo{20..29}.md
+  512  ls
+  513  git add .
+  514  git commit -m 'OK28'
+  515  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  516  git remote -v
+  517  git push origin master
+  518  touch gizumo{20..29}.md
+  519  ls
+  520  git rm --cached gizumo{20..29}.md
+  521  git add .
+  522  git commit -m 'OK29'
+  523  git commit -m 'OK29'git rm --cached gizumo{20..29}.md
+  524  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  525  git remote -v
+  526  git push origin master
+  527  git rm -r --cached .
+  528  git add .
+  529  git commit -m 'OK30'
+  530  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  531  git remote -v
+  532  git push origin master
+  533  pwd
+  534  /root/server_lesson/linux_practice2/.gitignore
+  535  vi /root/server_lesson/linux_practice2/.gitignore
+  536  git rm -r --cached .
+  537  git add .
+  538  git commit -m 'OK31'
+  539  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  540  git remote -v
+  541  git push origin master
+  542  ls
+  543  pwd
+  544  cd /root/server_lesson/linux_practice2/
+  545  rm .gitignore
+  546  ls -a
+  547  touch .gitignore
+  548  ls -a
+  549  vi /root/server_lesson/linux_practice2/.gitignore
+  550  git add .
+  551  git commit -m 'OK32'
+  552  git remote add origin https://github.com/kzuamadraogon/linux_dragon.git
+  553  git remote -v
+  554  git push origin master
+  555  history 300
+
